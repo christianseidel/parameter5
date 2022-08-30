@@ -1,4 +1,6 @@
 
+.htaccess
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
