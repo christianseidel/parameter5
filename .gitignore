@@ -1,5 +1,6 @@
 
 .htaccess
+.todos
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

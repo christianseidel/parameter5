@@ -7,10 +7,6 @@ body {
     height: 95%;
 }
 
-/*.landing-page {
-    height: 95%;
-}*/
-
 p {
     font-family: JetBrains Mono, Verdana, sans-serif;
     font-size: 14px;
@@ -92,11 +88,6 @@ a.white-link:visited {
     justify-content: center;
     align-items: center;
     height: 100%;
-}
-
-.centered {
-    display: flex;
-    justify-content: center;
 }
 
 footer {
