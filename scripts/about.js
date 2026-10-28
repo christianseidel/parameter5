@@ -1,10 +1,1 @@
-
-document.getElementById('go-to-index').addEventListener('click', goToIndex);
-
-function goToIndex() {
-    location.href = 'index.html';
-}
-
-
-
-
+document.getElementById('go-to-index').addEventListener('click', () => location.href = 'index.html');

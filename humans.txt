@@ -1,4 +1,9 @@
-/* Author */
+/* AUTHOR */
     Coder: Christian Seidel
     Contact: info [at] parameter5. de
     From: Radolfzell, Germany
+
+/* SITE */
+    Last update: 2026/10/28
+    Standards: HTML5, CSS3, JavaScript
+    Software: Visual Studio Code

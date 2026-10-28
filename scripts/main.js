@@ -15,12 +15,11 @@ function rotatePentagon() {
     }, 50);
 }
 
-document.body.addEventListener('click', goToAbout);
+// clicking anywhere on the document will call about page
+document.body.addEventListener('click', () => location.href = 'about.html');
 
-function goToAbout() {
-    location.href = 'about.html';
-}
 
+// show hand cursor (pointer) randomly
 let timeUntilHandShown = random(800, 4000);
 let extendTime = 0;
 let whenToShowHand = new Date().getTime() + timeUntilHandShown;
@@ -40,7 +39,7 @@ setInterval(function () {
                 extendDuration += 200;
             }
         } else {             // repeated showHand Event
-            showHand(50);
+            showHand(120);
             repeatHand = false;
             whenToShowHand = new Date().getTime() + random(2000, 4000) + extendTime;
             if (extendTime < 16000) {
