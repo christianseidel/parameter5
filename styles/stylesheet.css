@@ -7,6 +7,10 @@ body {
     height: 95%;
 }
 
+:root {
+  --spacing-large: 2.5rem;
+}
+
 p {
     font-family: JetBrains Mono, Verdana, sans-serif;
     font-size: 14px;
@@ -18,9 +22,19 @@ p {
 h2 {
     font-family: JetBrains Mono, Verdana, sans-serif;
     font-size: 20px;
-    color: white;
+    color: deepskyblue;
     margin-top: 40px;
     margin-bottom: 6px;
+}
+
+.quote {
+    font-style: italic;
+    color: gold;
+    margin: 24px 0;
+}
+
+.large-margin-top {
+    margin-top: var(--spacing-large);
 }
 
 ul {
@@ -87,11 +101,10 @@ a.tooltip:hover span {
 }
 
 .flex-container {
-    height: 90%;
     display: flex;
     padding: 12px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 96px;
 }
 
@@ -104,6 +117,7 @@ a.tooltip:hover span {
 .right-box {
     min-height: 470px;
     padding: 24px;
+    margin-top: 46px;
 }
 
 .centered {
@@ -113,13 +127,19 @@ a.tooltip:hover span {
     height: 100%;
 }
 
+.break-with-half-em {
+    display: block;
+    margin-top: 0.4em;
+    margin-top: 0.4lh;
+}
+
 footer {
     width: 70%;
     height: 40pt;
     position: relative;
     left: 15%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border-top: 1pt dotted white;
 }
 
@@ -133,10 +153,11 @@ address {
 
 button {
     font-family: Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     background: black;
-    border: solid 12px black;
+    border: none;
     color: white;
+
 }
 
 button:hover {
@@ -154,12 +175,19 @@ button:hover {
     right: 3px;
 }
 
+.copy-sign {
+  font-size: 1.2em;
+  line-height: 1; /* verhindert, dass die Zeile dadurch höher wird */
+  vertical-align: -0.12em; /* bei Bedarf feinjustieren */
+}
+
 #pentagon {
     font-family: Verdana, sans-serif;
     font-size: 20px;
     color: deepskyblue;
     margin: auto;
 }
+
 
 
 
